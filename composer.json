@@ -1,0 +1,40 @@
+{
+  "name": "duroom/clipboardjs",
+  "description": "Add a modern approach to copy code to clipboard with code language display.",
+  "keywords": [
+    "duroom",
+    "clipboardjs",
+    "code language"
+  ],
+  "type": "duroom-extension",
+  "license": "MIT",
+  "require": {
+    "duroom/core": "^1.2"
+  },
+  "authors": [
+    {
+      "name": "NKDuy",
+      "email": "kn145660@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/DuRoom/clipboardjs/issues",
+    "source": "https://github.com/DuRoom/clipboardjs"
+  },
+  "autoload": {
+    "psr-4": {
+      "DuRoom\\ClipboardJS\\": "src/"
+    }
+  },
+  "extra": {
+    "duroom-extension": {
+      "title": "DuRoom Clipboardjs",
+      "category": "feature",
+      "icon": {
+        "name": "far fa-clipboard",
+        "backgroundColor": "#f8504b",
+        "color": "#ffffff"
+      }
+    }
+  }
+}
